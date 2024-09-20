@@ -1,13 +1,18 @@
 public class Activity{
-    public static void main(String[] args){
-        Dog aso = new Dog();
+    public static void main(String[] args) {
+        Dog aso = new Dog(5);
 
-        aso.Puppies[0] = "bah";
-        aso.Puppies[1] = "beh";
-        aso.Puppies[2] = "bih";
-        aso.Puppies[3] = "boh";
-        aso.Puppies[4] = "buh";
+      
+        
+        aso.aww("Bonatan");
+        System.out.println(aso.ngalan());
+        aso.bark();
+        System.out.println(aso.bilang(5));
+        aso.setNum();
+        String[] puppyNames = {"Buddy", "Bella","ron", "Charlie"};
+        aso.setDoggyNames(puppyNames);
+        aso.listPuppies();
+       
 
-        System.out.println(aso.Dog[2]);
     }
 }
