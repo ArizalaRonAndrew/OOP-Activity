@@ -1,4 +1,4 @@
- public static class Staff extends Person {
+ public class Staff extends Person {
         private String School;
         private double Salary;
 
