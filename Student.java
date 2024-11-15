@@ -1,4 +1,4 @@
-public static class Student extends Person {
+public class Student extends Person {
         private String Program;
         private int Year;
 
