@@ -1,4 +1,4 @@
- public static class Person {
+ public class Person {
         protected String Name;
         protected String Address;
 
