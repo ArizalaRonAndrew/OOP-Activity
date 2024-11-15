@@ -1,4 +1,4 @@
-public class Main {
+public class Activity {
     public static void main(String[] args) {
         
         Student StudentInstance = new Student("charlie", "san juan Balayan", "BSIT", 2);
